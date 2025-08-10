@@ -60,11 +60,9 @@ sudo ./uninstall.sh
 
 ## Files in This Repo
 
-- `pb-xorg-session.sh` — launches headless Xorg with dummy driver, LXDE, and RemoteInk daemon.
-- `20-pb-dummy.conf` — Xorg dummy video driver config tuned for the PocketBook screen.
-- `.Xresources` — sets a large, high-contrast cursor theme and size.
+- `pb-xorg-session.sh` — launches headless Xorg with dummy driver, LXDE, and RemoteInk daemon (place in /usr/local/bin/).
+- `20-pb-dummy.conf` — Xorg dummy video driver config tuned for the PocketBook screen (place in /etc/X11/xorg.conf.d/).
 - `install.sh` / `uninstall.sh` — install or remove all components.
-- `README.md` — this document.
 
 ## Notes
 
